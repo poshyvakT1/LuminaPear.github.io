@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuminaPear</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <style>
+    #welcomeMessage {
+      display: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark-green fixed-top">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="Логотип" class="logo"> LuminaPear
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="#basket"><button id="cart-button" class="btn btn-outline-light"><img src="images/bakset.png" alt="Корзинка" class="cart-icon"></button></a></li>
+      <li class="nav-item"><a class="nav-link" href="#catalog">Каталог</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">Про нас</a></li>
+      <li class="nav-item"><a class="nav-link" href="#feedback-form">Відгуки</a></li>
+      <li class="nav-item"><a class="nav-link" href="#game">Гра</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container mt-5 pt-5">
+  <h1 class="my-4 text-center">LuminaPear</h1>
+  <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://theluminastore.com/cdn/shop/files/Untitleddesign_10.png?v=1700538985&width=990" class="d-block w-100" alt="Зображення 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>GlowTorch</h5>
+          <p>Ціна: 700</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://katycraft.com/wp-content/uploads/2023/09/S88e656f105d94673bf52f503470fc7a0i.jpg_640x640Q90.jpg_.jpg" class="d-block w-100" alt="Зображення 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Color Changing Night Light</h5>
+          <p>Ціна: 1100</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://ae01.alicdn.com/kf/S46f2fd74e06d49c699aa4f6f8810bee5z/12W-15W-LED-Wall-Lamps-Moistureproof-Front-Porch-Ceiling-Light-Surface-Mounted-Oval-for-Outdoor-Garden.jpg" class="d-block w-100" alt="Зображення 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>LED Wall Mounted Oval</h5>
+          <p>Ціна: 700</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://m.media-amazon.com/images/I/41JPSD0D-GL._AC_.jpg" class="d-block w-100" alt="Зображення 4">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cute Duck Led Night</h5>
+          <p>Ціна: 680</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://static-01.daraz.lk/p/bb093d2dd0efa197134203a2c2f4b69d.jpg_750x750.jpg_.webp" class="d-block w-100" alt="Зображення 5">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Torch Minecraft Led Lamp</h5>
+          <p>Ціна: 560</p>
+        </div>
+      </div>
+       <div class="carousel-item">
+        <img src="images/footer.jpg" class="d-block w-100" alt="Зображення 6">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Індус</h5>
+          <p>Ціна: 3 долЯр</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="carousel-control-prev-text sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="carousel-control-next-text sr-only">Next</span>
+    </a>
+  </div>
+  <h2 id="catalog" class="text-center">Каталог</h2>
+  <div class="form-group">
+    <label for="categoryFilter">Фільтр по категоріям:</label>
+    <select class="form-control" id="categoryFilter" onchange="filterLamps()">
+      <option value="all">Всі категорії</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="searchInput">Пошук за назвою:</label>
+    <input type="text" class="form-control" id="searchInput" onkeyup="searchLamps()" placeholder="Введіть назву товару">
+  </div>
+  <div class="row" id="lamp-list"></div>
+  <p></p>
+  <div id="about" class="text-center" style="border: 2px solid black; padding: 10px; margin: 20px;">
+    <h2>Про нас</h2>
+    <h5>Ми просто два студента, яким дали командий проект, та ми його налабали за 2 доби та декілька баночок редбула</h5>
+    <h5>Цей проект на витривалість, та ми можеш сказати що це цікавий проект)</h5>
+    <h5>P.S. Надіємось на хорошу оцінку ;D</h5>
+  </div>
+  <div id="feedback-form">
+    <h2>Залиште свій відгук</h2>
+    <form id="form">
+      <label for="name">Ім'я:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      <label for="message">Відгук:</label><br>
+      <textarea id="message" name="message" required></textarea><br>
+      <button type="submit">Відправити</button>
+    </form>
+    <div id="thank-you-message">Дякуємо за ваш відгук!</div>
+  </div>
+  <p></p>
+  <div id="game" class="arcade-game">
+    <h2>Аркадна гра</h2>
+    <div id="gameBoard" class="grid"></div>
+    <div id="gameInfo" class="info">
+      <span id="score">| Очки: 0</span> | <span id="message"></span>
+    </div>
+    <button id="startButton" class="btn btn-primary">Старт</button>
+    <button id="restartButton" class="btn btn-secondary" style="display: none;">Рестарт</button>
+  </div>
+</div>
+<footer class="footer mt-4" style="display: flex; justify-content: space-between; align-items: center;">
+  <div>
+    <p>Розробники:</p>
+    <ul style="list-style: none; padding: 0;">
+      <li>Пошивак Т.Т. - <a href="mailto:poshyvak.teodor@comp-sc.if.ua">poshyvak.teodor@comp-sc.if.ua</a></li>
+      <li> Шабловський В.В. - <a href="mailto:shablovskyi.vladyslav@comp-sc.if.ua">shablovskyi.vladyslav@comp-sc.if.ua</a></li>
+    </ul>
+  </div>
+  <div>
+    <p>&copy; 2024 LuminaPear.</p>
+    <p>Всі права захищені індусами АДЖІЯКСА</p>
+    <p>Якщо ви спробуєте нашкодити сайту, вас очікує індуський карі!</p>
+  </div>
+</footer>
+
+<div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="welcomeModalLabel">Вітаємо!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeWelcomeModal">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="welcomeForm">
+          <div class="form-group">
+            <label for="userName">Як вас звати?</label>
+            <input type="text" class="form-control" id="userName" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Підтвердити</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="welcomeMessage" class="alert alert-success"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

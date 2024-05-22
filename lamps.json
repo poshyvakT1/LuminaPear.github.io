@@ -1,0 +1,170 @@
+[{
+  "categories" : {
+    "Bedroom":{
+      "category": "Лампи для спальні",
+      "items":[
+        {
+          "name":"Multi Functional Wall Lamp",
+          "image":"https://img.lazcdn.com/g/ff/kf/S2b8a0ca4eb364411baea282501a11284R.jpg_720x720q80.jpg",
+          "description":["Бездротове управління","\nПрацює від акамулятора"],
+          "price":400,
+          "color":"white"
+        },
+        {
+          "name":"Modern LED Wall Light",
+          "image":"https://m.media-amazon.com/images/I/61qPrpJ4wRL.jpg",
+          "description":["330 градусів нахилу","\nПідходить для читання"],
+          "price":600,
+          "color":["white","black","wooden"]
+        },
+        {
+          "name":"Led Double Head Wall Lamp",
+          "image":"https://i.ebayimg.com/images/g/b-IAAOSw6-JlQHBG/s-l1200.jpg",
+          "description":["Крутиться на 360 градусів","\nЄ пульт керування"],
+          "price":450,
+          "color":["black","white"]
+        },
+        {
+          "name":"GlowTorch",
+          "image":"https://theluminastore.com/cdn/shop/files/Untitleddesign_10.png?v=1700538985&width=990",
+          "description":["Можна взяти із собою","\nМягке та розсіяне освітлення"],
+          "price":700,
+          "color":["dark wood","white wood"]
+        }
+      ]
+    },
+    "Night lamps":{
+      "category": "Нічнички",
+      "items":[
+        {
+          "name":"Portable Night Lamp",
+          "image":"https://addide.com/cdn/shop/products/Sf60a49f9cec240bc8ea2c3aeab8992a8y.jpg?v=1671540636",
+          "description":["Удобний в руці","\nЕнергозберігаючий ліхтарик"],
+          "price":500,
+          "color":"white"
+        },
+        {
+          "name":"LED Night Light",
+          "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2QG7vgQGhAbIWQL6J3xYKBwQrKWMMON_wgsO7joTCzsY0LlAy",
+          "description":["Вистачає на 90 днів заряду","\nПереносний ліхтарик"],
+          "price":800,
+          "color":"white"
+        },
+        {
+          "name":"Color Changing Night Light",
+          "image":"https://katycraft.com/wp-content/uploads/2023/09/S88e656f105d94673bf52f503470fc7a0i.jpg_640x640Q90.jpg_.jpg",
+          "description":["RGB коліри","\nСенсорна кнопка"],
+          "price":1100,
+          "color":"white"
+        },
+        {
+          "name":"Night Light Motion Sensor",
+          "image":"https://img4.dhresource.com/webp/m/0x0/f3/albu/ry/n/22/0b5886ec-ac71-49eb-8686-414981435d12.jpg",
+          "description":["Реагує на рух","\nРегулююча яркість світла"],
+          "price":750,
+          "color":"white"
+        }
+      ]
+    },
+    "Outdoors":{
+      "category": "Вуличні",
+      "items":[
+        {
+          "name":"LED Outdoor Wall Light",
+          "image":"https://ae01.alicdn.com/kf/H65a36131af564629b1ec19ffd3654a71r/LED-Outdoor-Wall-Light-Modern-Waterproof-IP65-villa-Porch-Garden-patio-exterio-Wall-Lamp-Rainproof-in.jpg",
+          "description":["Модерн дизайн","\nЗахист від вологи IP65"],
+          "price":3100,
+          "color":"black"
+        },
+        {
+          "name":"Wall Light Nordic Luminaire",
+          "image":"https://ae01.alicdn.com/kf/S7a42312edce9422992fbd2d6348758ceM/12W-6W-Waterproof-AC85-265V-Surface-Mounted-LED-Wall-Light-Modern-Nordic-Luminaire-Indoor-Wall-Lamps.jpg",
+          "description":["Світить в 180 градусів","\nВодонепроникний"],
+          "price":1200,
+          "color":["black","white"]
+        },
+        {
+          "name":"LED Wall Mounted Oval",
+          "image":"https://ae01.alicdn.com/kf/S46f2fd74e06d49c699aa4f6f8810bee5z/12W-15W-LED-Wall-Lamps-Moistureproof-Front-Porch-Ceiling-Light-Surface-Mounted-Oval-for-Outdoor-Garden.jpg",
+          "description":["Стильна форма","\nВодонепроникний"],
+          "price":700,
+          "color":["black","white"]
+        },
+        {
+          "name":"LED Floodlight",
+          "image":"https://ae01.alicdn.com/kf/Scc83efbb26e143faa44e0e232c0aaf4aN/150W-100W-50W-30W-LED-Flood-Light-Motion-Sensor-Waterproof-AC200-240V-LED-PIR-Floodlight-Reflector.png",
+          "description":["Реагує на рух","\nЗахист від вологи IP66"],
+          "price":500,
+          "color":"black"
+        }
+      ]
+    },
+    "For Children":{
+      "category": "Для дітей",
+      "items":[
+        {
+          "name":"Cute Duck Led Night",
+          "image":"https://m.media-amazon.com/images/I/41JPSD0D-GL._AC_.jpg",
+          "description":["Силіконова оболочка","\nТепле світло"],
+          "price":680,
+          "color":"white"
+        },
+        {
+          "name":"Happy Cat Led Night",
+          "image":"https://m.media-amazon.com/images/I/61X1WWeGfVL.jpg",
+          "description":["Силіконова оболочка","\nRGB коліри"],
+          "price":600,
+          "color":"white"
+        },
+        {
+          "name":"Cute Rabbit Led Night",
+          "image":"https://img.joomcdn.net/643e21d69b78033ba5aef35d0c6cc081616190f6_original.jpeg",
+          "description":["Силіконова оболочка","\nТепле світло"],
+          "price":800,
+          "color":"white"
+        },
+        {
+          "name":"Frog Soft Led Night",
+          "image":"https://i.ebayimg.com/images/g/B2IAAOSwB0lk7cX9/s-l1200.jpg",
+          "description":["Силіконова оболочка","\nТепле світло"],
+          "price":720,
+          "color":"green"
+        }
+      ]
+    },
+    "For Gamers":{
+      "category": "Для Геймерів",
+      "items":[
+        {
+          "name":"Digital Nixie Tube Clock",
+          "image":"https://ae01.alicdn.com/kf/Sd5ef09bf21b94411866081c46241bfdem/Digital-Nixie-Tube-Clock-with-RGB-LED-Glows-for-Game-Room-Desktop-Decoration-Luxury-Box-Packing.jpg",
+          "description":["RGB коліри","\nМоже відображатись у вигляді календаря"],
+          "price":2800,
+          "color":"black"
+        },
+        {
+          "name":"Super Mario LED Question",
+          "image":"https://ae01.alicdn.com/kf/Sa21c11eda99f4f7ea961138a4b5d7220j/8cm-Super-Mario-Bros-LED-Question-Mark-Brick-Night-Light-USB-Charging-Desk-Lamp-Light-for.jpg",
+          "description":["Може бути підвішений","\n Працює від акамулятора"],
+          "price":620,
+          "color":"yellow"
+        },
+        {
+          "name":"Super Mario Bros Lamp",
+          "image":"https://ae01.alicdn.com/kf/S47abc6d488524805bf6b96a39897c97aJ/Super-Mario-Bros-Lamp-Super-Star-Light-Led-Music-Night-Light-Sound-Usb-Charging-Desk-Lamp.jpg",
+          "description":["Гарний декор","\nПрацює від акамулятора"],
+          "price":570,
+          "color":"yellow"
+        },
+        {
+          "name":"Torch Minecraft Led Lamp",
+          "image":"https://static-01.daraz.lk/p/bb093d2dd0efa197134203a2c2f4b69d.jpg_750x750.jpg_.webp",
+          "description":["Тепле світло","\nЄ кріплення на стіну"],
+          "price":560,
+          "color":"wooden"
+        }
+      ]
+    }
+  }
+}
+]
