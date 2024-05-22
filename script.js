@@ -21,8 +21,6 @@ document.addEventListener("DOMContentLoaded", function() {
         let itemsFound = false;
         let itemsContainer = document.createElement("div");
         itemsContainer.classList.add("row");
-
-        // Перебір категорій та товарів
         Object.keys(data[0].categories).forEach(function(key) {
             if (category === "all" || key === category) {
                 data[0].categories[key].items.forEach(function(item) {
